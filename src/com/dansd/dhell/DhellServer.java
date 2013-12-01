@@ -10,6 +10,7 @@ public class DhellServer extends Server {
 
     @Override
     public byte[] onRequest(byte[] reqString) {
+
         String stringRequest = new String(reqString);
         System.out.println(stringRequest);
         String resultString = "";
