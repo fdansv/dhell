@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Dhell.iml" filepath="$PROJECT_DIR$/Dhell.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../UDP/UDP.iml" filepath="$PROJECT_DIR$/../UDP/UDP.iml" />
     </modules>
   </component>
 </project>
