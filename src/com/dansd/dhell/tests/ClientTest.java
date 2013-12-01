@@ -1,11 +1,10 @@
 package com.dansd.dhell.tests;
 
-/**
- * Created with IntelliJ IDEA.
- * User: fdans
- * Date: 01/12/13
- * Time: 19:22
- * To change this template use File | Settings | File Templates.
- */
+import com.dansd.UDP.Messenger;
+
 public class ClientTest {
+    public static void main(String[] args) {
+        Messenger messenger = new Messenger("localhost", 9190);
+        messenger.send("hello".getBytes());
+    }
 }

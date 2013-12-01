@@ -8,8 +8,5 @@ public class Main {
 	    ServerSession serverSession = new ServerSession();
         Server server = new DhellServer(9190);
         server.listen();
-        System.out.println("the system is listening very carefully, so give him a break");
-
-
     }
 }

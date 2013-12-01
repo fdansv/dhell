@@ -10,22 +10,19 @@ public class DhellServer extends Server {
 
     @Override
     public byte[] onRequest(byte[] reqString) {
-        String stringRequest = reqString.toString();
-        Commands currentCommand = Commands.valueOf(stringRequest.toLowerCase());
+        String stringRequest = new String(reqString);
+        System.out.println(stringRequest);
         String resultString = "";
-        switch (currentCommand){
-            case hello:
-                resultString = "hello";
-            case bye:
-            default:
-                resultString = "Invalid command";
+        if (stringRequest.equals("hello")){
+           resultString = "hello";
+        }
+        else if(stringRequest.equals("bye")){
+
+        }
+        else{
+            resultString = "Bad expression";
         }
         byte[] result = resultString.getBytes();
         return result;
-    }
-
-    public enum Commands {
-        hello,
-        bye
     }
 }
