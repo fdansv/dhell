@@ -15,6 +15,7 @@ public class DhellServer extends Server {
         String resultString = "";
         switch (currentCommand){
             case hello:
+                resultString = "hello";
             case bye:
             default:
                 resultString = "Invalid command";

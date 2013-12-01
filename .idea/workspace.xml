@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3af374c1-b591-48c2-9d79-13384349f822" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/dansd/dhell/tests/ClientTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/dansd/dhell/DhellServer.java" afterPath="$PROJECT_DIR$/src/com/dansd/dhell/DhellServer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Dhell.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -13,7 +12,7 @@
     <file path="/fragment.java" changelist="3af374c1-b591-48c2-9d79-13384349f822" time="1385923975991" ignored="false" />
     <file path="/ServerSession.java" changelist="3af374c1-b591-48c2-9d79-13384349f822" time="1385876117328" ignored="false" />
     <file path="/Server.java" changelist="3af374c1-b591-48c2-9d79-13384349f822" time="1385876561404" ignored="false" />
-    <file path="/DhellServer.java" changelist="3af374c1-b591-48c2-9d79-13384349f822" time="1385925496700" ignored="false" />
+    <file path="/DhellServer.java" changelist="3af374c1-b591-48c2-9d79-13384349f822" time="1385925730869" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,10 +81,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DhellServer.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="DhellServer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/dansd/dhell/DhellServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="49" selection-start="535" selection-end="535" vertical-scroll-proportion="0.6909091">
+            <state line="18" column="39" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClientTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/dansd/dhell/tests/ClientTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="23" selection-start="207" selection-end="207" vertical-scroll-proportion="0.39740258">
               <folding />
             </state>
           </provider>
@@ -221,6 +229,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="dhell" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dhell" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dhell" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dhell" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -421,7 +451,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dansd/dhell/DhellServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="49" selection-start="535" selection-end="535" vertical-scroll-proportion="0.6909091">
+        <state line="18" column="39" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dansd/dhell/tests/ClientTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="23" selection-start="207" selection-end="207" vertical-scroll-proportion="0.39740258">
           <folding />
         </state>
       </provider>
