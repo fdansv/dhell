@@ -10,12 +10,12 @@ public class DhellServer extends Server {
 
     @Override
     public byte[] onRequest(byte[] reqString) {
-
+        Zeppelin thisZeppelin = new Zeppelin(reqString);
         String stringRequest = new String(reqString);
         System.out.println(stringRequest);
         String resultString = "";
         if (stringRequest.equals("hello")){
-           resultString = "hello";
+
         }
         else if(stringRequest.equals("bye")){
 
