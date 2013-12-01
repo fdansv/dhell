@@ -30,8 +30,21 @@ public class Zeppelin {
         decode();
     }
     private void decode() {
+        decodeString();
         parseCommand();
         parsePayload();
+    }
+
+    private void decodeString() {
+        String internalString = new String(requestString);
+    }
+
+    private void parseCommand() {
+
+    }
+
+    private void parsePayload() {
+
     }
 
 }
