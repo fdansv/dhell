@@ -2,13 +2,7 @@ package com.dansd.dhell;
 
 import com.dansd.UDP.Server;
 
-/**
- * Created with IntelliJ IDEA.
- * User: fdans
- * Date: 01/12/13
- * Time: 18:52
- * To change this template use File | Settings | File Templates.
- */
+
 public class DhellServer extends Server {
     public DhellServer(int i) {
         super(i);
@@ -17,9 +11,20 @@ public class DhellServer extends Server {
     @Override
     public byte[] onRequest(byte[] reqString) {
         String stringRequest = reqString.toString();
-        switch(stringRequest){
-
+        Commands currentCommand = Commands.valueOf(stringRequest.toLowerCase());
+        String resultString = "";
+        switch (currentCommand){
+            case hello:
+            case bye:
+            default:
+                resultString = "Invalid command";
         }
-        return super.onRequest(reqString);
+        byte[] result = resultString.getBytes();
+        return result;
+    }
+
+    public enum Commands {
+        hello,
+        bye
     }
 }
