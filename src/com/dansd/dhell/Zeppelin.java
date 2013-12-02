@@ -31,19 +31,21 @@ public class Zeppelin {
     }
     private void decode() {
         decodeString();
-        parseCommand();
-        parsePayload();
     }
 
     private void decodeString() {
-        String internalString = new String(requestString);
+        String[] internalString = new String(requestString).split("####DIVIDER####");
+        String rawCommand = internalString[0];
+        String rawPayload = internalString[1];
+        parseCommand(rawCommand);
+        parsePayload(rawPayload);
     }
 
-    private void parseCommand() {
+    private void parseCommand(String rawCommand) {
 
     }
 
-    private void parsePayload() {
+    private void parsePayload(String rawPayload) {
 
     }
 
