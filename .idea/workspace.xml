@@ -13,7 +13,7 @@
     <file path="/Server.java" changelist="3af374c1-b591-48c2-9d79-13384349f822" time="1385876561404" ignored="false" />
     <file path="/DhellServer.java" changelist="3af374c1-b591-48c2-9d79-13384349f822" time="1385929944348" ignored="false" />
     <file path="/ClientTest.java" changelist="3af374c1-b591-48c2-9d79-13384349f822" time="1385926081979" ignored="false" />
-    <file path="/Zeppelin.java" changelist="3af374c1-b591-48c2-9d79-13384349f822" time="1385943694626" ignored="false" />
+    <file path="/Zeppelin.java" changelist="3af374c1-b591-48c2-9d79-13384349f822" time="1385943816552" ignored="false" />
     <file path="/Session.java" changelist="3af374c1-b591-48c2-9d79-13384349f822" time="1385929736321" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -109,7 +109,7 @@
       <file leaf-file-name="Zeppelin.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/dansd/dhell/Zeppelin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="26" selection-start="926" selection-end="926" vertical-scroll-proportion="0.7103918">
+            <state line="48" column="8" selection-start="1073" selection-end="1073" vertical-scroll-proportion="0.78194207">
               <folding />
             </state>
           </provider>
@@ -497,7 +497,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dansd/dhell/Zeppelin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="26" selection-start="926" selection-end="926" vertical-scroll-proportion="0.7103918">
+        <state line="48" column="8" selection-start="1073" selection-end="1073" vertical-scroll-proportion="0.78194207">
           <folding />
         </state>
       </provider>

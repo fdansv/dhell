@@ -42,7 +42,7 @@ public class Zeppelin {
     }
 
     private void parseCommand(String rawCommand) {
-
+        this.setCommand(rawCommand);
     }
 
     private void parsePayload(String rawPayload) {
